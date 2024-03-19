@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+       include ../static/style.css 
+
+block content
+
+    section#introsection 
+         div Welcome to Modi's Dance Academy
+         div.small Eat Sleep Dance Repeat 
+    h2#mission  our mission 
+    section#missionsection 
+         div.card
+             h3 Dance Perfection 
+             div.card-box 
+                div.card-img
+                     img(src="/static/1.jpg") 
+                div.card-content 
+                     p Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dignissimos eveniet quasi aspernatur ex mollitia?
+                    
+         div.card
+             h3 Dance the way you like
+              div.card-box 
+                div.card-img 
+                     img(src="/static/2.jpg") 
+                div.card-content 
+                     p Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dignissimos eveniet quasi aspernatur ex mollitia? 
+         div.card
+             h3 Expert Teaching
+              div.card-box 
+                div.card-img 
+                     img(src="/static/3.png") 
+                div.card-content 
+                     p Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, dignissimos eveniet quasi aspernatur ex mollitia?  
+    section#sponsorsection  
+         h2 Our Sponsors
+         div.box
+            div.box1 
+                img(src="/static/10.jpeg") 
+            div.box1 
+                img(src="/static/11.jpg") 
+            div.box1 
+                img(src="/static/12.png") 
+            div.box1 
+                img(src="/static/13.jpg") 
+     

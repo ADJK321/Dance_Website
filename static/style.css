@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Noto+Serif:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dangrek', sans-serif;
+}
+
+
+
+#logo img{
+         filter : invert(1) ;
+         height: 100px;
+         margin-left: -40px;
+         padding-right: 100px;
+         margin-top: 10px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 27px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size:x-large;
+}
+
+#navbar li a:hover{
+    color: blue;
+}
+
+#introsection{
+/* background-color: red; */
+background: center/cover  no-repeat url("/static/dance-5321562_1280.jpg");
+height: 340px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Noto Serif', serif; 
+flex-direction: column;
+font-size: 50px;
+}
+
+#introsection div.small{
+    font-size: 35px;
+    color:white;
+    font-weight: bolder;
+}
+
+
+#missionsection{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+#mission {
+    text-align: center;
+    background-color: aliceblue;
+    height: 16px;
+}
+
+
+.card-img img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+}
+
+
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 250px;
+    width: 280px;
+    margin-top: 40px;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card-content{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#sponsorsection{
+ background-color: white;
+ height: 240px;
+ text-align: center; 
+}
+
+#sponsorsection h2{
+    margin-top: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box1 img{
+
+    height: 140px;
+    width: 140px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
